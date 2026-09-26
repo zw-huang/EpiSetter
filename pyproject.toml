@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "episetter"
+version = "0.1.0"
+description = "OLMo3-7B L11–15 protected layerwise bounded calibration"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.6", "transformers>=5.0", "numpy", "tqdm"]
+
+[tool.setuptools]
+packages = ["episetter"]

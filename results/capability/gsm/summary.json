@@ -1,0 +1,20 @@
+{
+  "stage": "gsm",
+  "status": "complete",
+  "n_total": 1319,
+  "n_scored": 1319,
+  "excluded": 0,
+  "metrics": {
+    "EM": {
+      "base": 0.3115996967399545,
+      "l11_15": 0.312357846853677,
+      "delta": 0.000758150113722517,
+      "paired_cluster_ci95": [
+        -0.008339651250947688,
+        0.009097801364670205
+      ],
+      "groups": 1319
+    }
+  },
+  "limitations": "Pointwise exploratory paired-cluster intervals; no multiplicity-adjusted capability-preservation claim."
+}

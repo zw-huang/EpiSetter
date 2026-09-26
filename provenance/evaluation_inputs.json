@@ -1,0 +1,26 @@
+{
+  "method": "L11-15 retrained protected calibration",
+  "layers": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "seeds": {
+    "42": {
+      "checkpoint": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r5_l11_15_mrmc417_gpu_resident_v2/seed42/calibration/calibrator.pt",
+      "sha256": "01a19d8a24aa45b56ed096496e216febc62f59f28442bb6d4565596800b4ce50"
+    }
+  },
+  "test417": {
+    "path": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r5_l11_15_mrmc417_gpu_resident_v2/test417.json",
+    "sha256": "8d743f9d906350bf495c9133fa9f908be5cd17b43f88bcda3b238b1cccf116d0",
+    "n": 417
+  },
+  "mrqa_bundle": {
+    "path": "/home/zhenwei/llm_knowledge_src/episetter_iclr/data/olmo3_7b_dev_train_test_eval.json",
+    "sha256": "0340ec390e22d735266e87436bcafd06db2422a2c4549aba2c9e1e992a4cef9e"
+  },
+  "protocol": "old4 prompt/scorer, greedy, 32 generated tokens, no test selection"
+}

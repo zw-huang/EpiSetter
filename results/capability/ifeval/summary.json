@@ -1,0 +1,40 @@
+{
+  "stage": "ifeval",
+  "status": "complete",
+  "n_total": 541,
+  "n_scored": 541,
+  "excluded": 0,
+  "metrics": {
+    "strict_prompt": {
+      "base": 0.25693160813308685,
+      "l11_15": 0.28650646950092423,
+      "delta": 0.029574861367837338,
+      "paired_cluster_ci95": [
+        0.011090573012939002,
+        0.04990757855822551
+      ],
+      "groups": 541
+    },
+    "loose_prompt": {
+      "base": 0.41589648798521256,
+      "l11_15": 0.4399260628465804,
+      "delta": 0.024029574861367836,
+      "paired_cluster_ci95": [
+        0.0018484288354898336,
+        0.04805914972273567
+      ],
+      "groups": 541
+    }
+  },
+  "instruction_accuracy": {
+    "base": {
+      "strict": 0.3980815347721823,
+      "loose": 0.5383693045563549
+    },
+    "l11_15": {
+      "strict": 0.42206235011990406,
+      "loose": 0.5539568345323741
+    }
+  },
+  "limitations": "Pointwise exploratory paired-cluster intervals; no multiplicity-adjusted capability-preservation claim."
+}

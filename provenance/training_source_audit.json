@@ -1,0 +1,27 @@
+{
+  "scripts/r5_l11_15_benchmark.py": {
+    "training_sha256": "06a396e935629fb510db5592fc190f196a0de6b96fa7ce0edc25ba23ba0a6e56",
+    "current_sha256": "06a396e935629fb510db5592fc190f196a0de6b96fa7ce0edc25ba23ba0a6e56",
+    "matches": true
+  },
+  "episetter/model.py": {
+    "training_sha256": "06e20da14b7febc7d07fbd411daf85d4539b6591fdf1c83fd2bc4e7366e1a1ff",
+    "current_sha256": "06e20da14b7febc7d07fbd411daf85d4539b6591fdf1c83fd2bc4e7366e1a1ff",
+    "matches": true
+  },
+  "episetter/experiments.py": {
+    "training_sha256": "beff93978337b5f470743bb80aa5dc19875f9e428955b9c9f73ebf987c6ccffd",
+    "current_sha256": "beff93978337b5f470743bb80aa5dc19875f9e428955b9c9f73ebf987c6ccffd",
+    "matches": true
+  },
+  "episetter/calibration.py": {
+    "training_sha256": "0cd4550b61230bc94ef85de71f2ff3fd59b53c53caafaa992858fdaa0b49a123",
+    "current_sha256": "0cd4550b61230bc94ef85de71f2ff3fd59b53c53caafaa992858fdaa0b49a123",
+    "matches": true
+  },
+  "episetter/core.py": {
+    "training_sha256": "86941872ac4c389e68dfe375026e9a4766095f08898c26faa05e233baa57516a",
+    "current_sha256": "86941872ac4c389e68dfe375026e9a4766095f08898c26faa05e233baa57516a",
+    "matches": true
+  }
+}

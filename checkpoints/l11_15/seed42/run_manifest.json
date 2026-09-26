@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "freeze_sha256": "7eea81e1f347e188a2f7808499b37bc71d418106a007e991c091101cff99d2e6",
+  "model_manifest": {
+    "small_file_sha256": {
+      "config.json": "277d7ea5c6159d4c2d6986a8a23757d1ef06acaa7abc2c40e0513446f7db0f85",
+      "tokenizer.json": "73fd5254624f39a88e3faac6a8e11300fc3c735ed37880d4f4f08db898eaecca",
+      "tokenizer_config.json": "ffa5b2cfee6e73d5dc0a7d3b7e02eb6ed60a491dd782f2bd8ad2b4659b2aafc6",
+      "model.safetensors.index.json": "47a8266860f2a5f95c021fb4d7d3a469a95ee8b445742becbb6b19632cfc6e95"
+    },
+    "shard_stat_identity": {
+      "model-00001-of-00003.safetensors": {
+        "size": 4969984976,
+        "mtime_ns": 1788165897260214520
+      },
+      "model-00002-of-00003.safetensors": {
+        "size": 4981161496,
+        "mtime_ns": 1788165892992177282
+      },
+      "model-00003-of-00003.safetensors": {
+        "size": 4644917240,
+        "mtime_ns": 1788165896711209722
+      }
+    }
+  },
+  "torch": "2.13.0+cu130",
+  "transformers": "5.16.1",
+  "python": "3.12.14",
+  "source_hashes": {
+    "scripts/r5_l11_15_benchmark.py": "06a396e935629fb510db5592fc190f196a0de6b96fa7ce0edc25ba23ba0a6e56",
+    "episetter/model.py": "06e20da14b7febc7d07fbd411daf85d4539b6591fdf1c83fd2bc4e7366e1a1ff",
+    "episetter/experiments.py": "beff93978337b5f470743bb80aa5dc19875f9e428955b9c9f73ebf987c6ccffd",
+    "episetter/calibration.py": "0cd4550b61230bc94ef85de71f2ff3fd59b53c53caafaa992858fdaa0b49a123",
+    "episetter/core.py": "86941872ac4c389e68dfe375026e9a4766095f08898c26faa05e233baa57516a"
+  }
+}

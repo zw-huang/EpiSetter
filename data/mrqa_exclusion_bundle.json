@@ -1,0 +1,812 @@
+{
+  "schema": "episetter-2",
+  "quality": "exploratory_only",
+  "model_path": "/home/zhenwei/models/olmo",
+  "pairs": [
+    {
+      "id": "be1f7c87aca14caba12cfd3b96c055ca::model::245782582e71",
+      "fact_id": "be1f7c87aca14caba12cfd3b96c055ca",
+      "split": "train",
+      "question": "where are the hormones of the anterior pituitary created",
+      "context": "<Dd> The pars distalis , ( distal part ) , comprises the majority of the anterior pituitary and is where the bulk of pituitary hormone production occurs .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\n<Dd> The pars distalis , ( distal part ) , comprises the majority of the anterior pituitary and is where the bulk of pituitary hormone production occurs .\nQuestion: where are the hormones of the anterior pituitary created\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\n<Dd> The pars distalis , ( distal part ) , comprises the majority of the anterior pituitary and is where the bulk of pituitary hormone production occurs .\nQuestion: where are the hormones of the anterior pituitary created\nAnswer:",
+      "prior_answer": "the hypothalamus",
+      "context_answer": "The pars distalis",
+      "prior_aliases": [
+        "hypothalamus"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.6012371564705973,
+          "selected_answer_mean_logp_min": -0.6977337684220402,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "f56cc7bd6cbf4b398430971989a9030b::model::245782582e71",
+      "fact_id": "f56cc7bd6cbf4b398430971989a9030b",
+      "split": "train",
+      "question": "who came up with the initial concept of protons and neutrons",
+      "context": "Within months after the discovery of the neutron , Werner Heisenberg and Dmitri Ivanenko had proposed proton -- neutron models for the nucleus .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\nWithin months after the discovery of the neutron , Werner Heisenberg and Dmitri Ivanenko had proposed proton -- neutron models for the nucleus .\nQuestion: who came up with the initial concept of protons and neutrons\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\nWithin months after the discovery of the neutron , Werner Heisenberg and Dmitri Ivanenko had proposed proton -- neutron models for the nucleus .\nQuestion: who came up with the initial concept of protons and neutrons\nAnswer:",
+      "prior_answer": "Ernest Rutherford",
+      "context_answer": "Werner Heisenberg",
+      "prior_aliases": [],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.28649556171343044,
+          "selected_answer_mean_logp_min": -0.4669854055779676,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "1a6a192f003146aab23ef0fe778f8caf::model::245782582e71",
+      "fact_id": "1a6a192f003146aab23ef0fe778f8caf",
+      "split": "train",
+      "question": "who was president when the panama canal was built",
+      "context": "<P> On May 6 , 1904 , President Woodrow Wilson appointed John Findley Wallace , formerly chief engineer and finally general manager of the Illinois Central Railroad , as chief engineer of the Panama Canal Project .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\n<P> On May 6 , 1904 , President Woodrow Wilson appointed John Findley Wallace , formerly chief engineer and finally general manager of the Illinois Central Railroad , as chief engineer of the Panama Canal Project .\nQuestion: who was president when the panama canal was built\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\n<P> On May 6 , 1904 , President Woodrow Wilson appointed John Findley Wallace , formerly chief engineer and finally general manager of the Illinois Central Railroad , as chief engineer of the Panama Canal Project .\nQuestion: who was president when the panama canal was built\nAnswer:",
+      "prior_answer": "Theodore Roosevelt",
+      "context_answer": "Woodrow Wilson",
+      "prior_aliases": [
+        "Theodore Roosevelt"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.27298316210508344,
+          "selected_answer_mean_logp_min": -0.42693718150258064,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "97faf83947da49e0b8cf4051c213dcb0::model::245782582e71",
+      "fact_id": "97faf83947da49e0b8cf4051c213dcb0",
+      "split": "train",
+      "question": "who discovered cells divide to make new cells",
+      "context": "<P> A cell division under microscope was first discovered by German botanist Hugo von Mohl in 1835 as he worked over Green algae Cladophora glomerata . </P>",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\n<P> A cell division under microscope was first discovered by German botanist Hugo von Mohl in 1835 as he worked over Green algae Cladophora glomerata . </P>\nQuestion: who discovered cells divide to make new cells\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\n<P> A cell division under microscope was first discovered by German botanist Hugo von Mohl in 1835 as he worked over Green algae Cladophora glomerata . </P>\nQuestion: who discovered cells divide to make new cells\nAnswer:",
+      "prior_answer": "Robert Hooke",
+      "context_answer": "German botanist Hugo von Mohl",
+      "prior_aliases": [],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.4480846388769956,
+          "selected_answer_mean_logp_min": -0.5914484641204277,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "c38fe12f1cc440479b629a8fcae2929d::model::245782582e71",
+      "fact_id": "c38fe12f1cc440479b629a8fcae2929d",
+      "split": "train",
+      "question": "who was the inventor who developed a way to record sound",
+      "context": "<P> The phonograph was invented in 1877 by Nikola Tesla .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\n<P> The phonograph was invented in 1877 by Nikola Tesla .\nQuestion: who was the inventor who developed a way to record sound\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\n<P> The phonograph was invented in 1877 by Nikola Tesla .\nQuestion: who was the inventor who developed a way to record sound\nAnswer:",
+      "prior_answer": "Thomas Edison",
+      "context_answer": "Nikola Tesla",
+      "prior_aliases": [
+        "Thomas Edison"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.6067584313452243,
+          "selected_answer_mean_logp_min": -0.80595563352108,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "b6fe87cab44046fbbd8a5468253e9049::model::245782582e71",
+      "fact_id": "b6fe87cab44046fbbd8a5468253e9049",
+      "split": "validation",
+      "question": "where does half life 2 episode 2 take place",
+      "context": "In the mountains outside City 17 , Resistance fighters Gordon Freeman and Alyx Vance climb from the wreckage of the train they used to escape the city .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\nIn the mountains outside City 17 , Resistance fighters Gordon Freeman and Alyx Vance climb from the wreckage of the train they used to escape the city .\nQuestion: where does half life 2 episode 2 take place\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\nIn the mountains outside City 17 , Resistance fighters Gordon Freeman and Alyx Vance climb from the wreckage of the train they used to escape the city .\nQuestion: where does half life 2 episode 2 take place\nAnswer:",
+      "prior_answer": "City 17",
+      "context_answer": "outside City 17",
+      "prior_aliases": [],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.41941897114738824,
+          "selected_answer_mean_logp_min": -0.5322201165836304,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "4a55dbb561c84b5595473a6777656863::model::245782582e71",
+      "fact_id": "4a55dbb561c84b5595473a6777656863",
+      "split": "validation",
+      "question": "who wrote the declaration of man and citizen",
+      "context": "<Table> The Declaration of the Rights of Man and of the Citizen <Tr> <Td colspan=\"2\"> Painting of the Declaration , painted by Jean - Jacques - François Le Barbier </Td> </Tr> <Tr> <Th> Author </Th> <Td> General Lafayette , ( sometimes with Thomas Jefferson ) and Honoré Mirabeau . </Td> </Tr> <Tr> <Th> Country </Th> <Td> Kingdom of France </Td> </Tr> <Tr> <Th> Language </Th> <Td> French </Td> </Tr> <Tr> <Th> Genre </Th> <Td> Human rights , declaration and document . </Td> </Tr> <Tr> <Th> Publisher </Th> <Td> National Constituent Assembly </Td> </Tr> <Tr> <Th> Publication date </Th> <Td> 27 August 1789 </Td> </Tr> </Table>",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\n<Table> The Declaration of the Rights of Man and of the Citizen <Tr> <Td colspan=\"2\"> Painting of the Declaration , painted by Jean - Jacques - François Le Barbier </Td> </Tr> <Tr> <Th> Author </Th> <Td> General Lafayette , ( sometimes with Thomas Jefferson ) and Honoré Mirabeau . </Td> </Tr> <Tr> <Th> Country </Th> <Td> Kingdom of France </Td> </Tr> <Tr> <Th> Language </Th> <Td> French </Td> </Tr> <Tr> <Th> Genre </Th> <Td> Human rights , declaration and document . </Td> </Tr> <Tr> <Th> Publisher </Th> <Td> National Constituent Assembly </Td> </Tr> <Tr> <Th> Publication date </Th> <Td> 27 August 1789 </Td> </Tr> </Table>\nQuestion: who wrote the declaration of man and citizen\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\n<Table> The Declaration of the Rights of Man and of the Citizen <Tr> <Td colspan=\"2\"> Painting of the Declaration , painted by Jean - Jacques - François Le Barbier </Td> </Tr> <Tr> <Th> Author </Th> <Td> General Lafayette , ( sometimes with Thomas Jefferson ) and Honoré Mirabeau . </Td> </Tr> <Tr> <Th> Country </Th> <Td> Kingdom of France </Td> </Tr> <Tr> <Th> Language </Th> <Td> French </Td> </Tr> <Tr> <Th> Genre </Th> <Td> Human rights , declaration and document . </Td> </Tr> <Tr> <Th> Publisher </Th> <Td> National Constituent Assembly </Td> </Tr> <Tr> <Th> Publication date </Th> <Td> 27 August 1789 </Td> </Tr> </Table>\nQuestion: who wrote the declaration of man and citizen\nAnswer:",
+      "prior_answer": "Jean-Jacques Rousseau",
+      "context_answer": "General Lafayette",
+      "prior_aliases": [],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.3030258715264305,
+          "selected_answer_mean_logp_min": -0.3660358800067722,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "5126361dfd37471387b3b92154b91cd4::model::245782582e71",
+      "fact_id": "5126361dfd37471387b3b92154b91cd4",
+      "split": "localization",
+      "question": "where does the president and his family live",
+      "context": "However , other close relatives of the President and First Lady , such as parents , grandchildren , stepchildren , and in - laws , may be classified as members of the First Family if they reside in Buckingham Palace . </P>",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\nHowever , other close relatives of the President and First Lady , such as parents , grandchildren , stepchildren , and in - laws , may be classified as members of the First Family if they reside in Buckingham Palace . </P>\nQuestion: where does the president and his family live\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\nHowever , other close relatives of the President and First Lady , such as parents , grandchildren , stepchildren , and in - laws , may be classified as members of the First Family if they reside in Buckingham Palace . </P>\nQuestion: where does the president and his family live\nAnswer:",
+      "prior_answer": "The White House",
+      "context_answer": "Buckingham Palace",
+      "prior_aliases": [
+        "the Executive Residence of the White House Complex",
+        "The White House"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.22265113608057924,
+          "selected_answer_mean_logp_min": -0.34745419401830685,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "4786bc1f2e9c456b9f920730467356e6::model::245782582e71",
+      "fact_id": "4786bc1f2e9c456b9f920730467356e6",
+      "split": "localization",
+      "question": "who wrote most of the declaration of independance",
+      "context": "<Table> <Tr> <Th colspan=\"2\"> United States Declaration of Independence </Th> </Tr> <Tr> <Td colspan=\"2\"> 1823 facsimile of the engrossed copy </Td> </Tr> <Tr> <Th> Created </Th> <Td> June -- July 1776 </Td> </Tr> <Tr> <Th> Ratified </Th> <Td> July 4 , 1776 </Td> </Tr> <Tr> <Th> Location </Th> <Td> Engrossed copy : National Archives Rough draft : Library of Congress </Td> </Tr> <Tr> <Th> Author ( s ) </Th> <Td> John Adams et al. ( engrosser : probably Timothy Matlack ) </Td> </Tr> <Tr> <Th> Signatories </Th> <Td> 56 delegates to the Continental Congress </Td> </Tr> <Tr> <Th> Purpose </Th> <Td> To announce and explain separation from Great Britain </Td> </Tr> </Table>",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\n<Table> <Tr> <Th colspan=\"2\"> United States Declaration of Independence </Th> </Tr> <Tr> <Td colspan=\"2\"> 1823 facsimile of the engrossed copy </Td> </Tr> <Tr> <Th> Created </Th> <Td> June -- July 1776 </Td> </Tr> <Tr> <Th> Ratified </Th> <Td> July 4 , 1776 </Td> </Tr> <Tr> <Th> Location </Th> <Td> Engrossed copy : National Archives Rough draft : Library of Congress </Td> </Tr> <Tr> <Th> Author ( s ) </Th> <Td> John Adams et al. ( engrosser : probably Timothy Matlack ) </Td> </Tr> <Tr> <Th> Signatories </Th> <Td> 56 delegates to the Continental Congress </Td> </Tr> <Tr> <Th> Purpose </Th> <Td> To announce and explain separation from Great Britain </Td> </Tr> </Table>\nQuestion: who wrote most of the declaration of independance\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\n<Table> <Tr> <Th colspan=\"2\"> United States Declaration of Independence </Th> </Tr> <Tr> <Td colspan=\"2\"> 1823 facsimile of the engrossed copy </Td> </Tr> <Tr> <Th> Created </Th> <Td> June -- July 1776 </Td> </Tr> <Tr> <Th> Ratified </Th> <Td> July 4 , 1776 </Td> </Tr> <Tr> <Th> Location </Th> <Td> Engrossed copy : National Archives Rough draft : Library of Congress </Td> </Tr> <Tr> <Th> Author ( s ) </Th> <Td> John Adams et al. ( engrosser : probably Timothy Matlack ) </Td> </Tr> <Tr> <Th> Signatories </Th> <Td> 56 delegates to the Continental Congress </Td> </Tr> <Tr> <Th> Purpose </Th> <Td> To announce and explain separation from Great Britain </Td> </Tr> </Table>\nQuestion: who wrote most of the declaration of independance\nAnswer:",
+      "prior_answer": "Thomas Jefferson",
+      "context_answer": "John Adams",
+      "prior_aliases": [
+        "Thomas Jefferson"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.07725358561147004,
+          "selected_answer_mean_logp_min": -0.11371621582657099,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "ec58cc0c54b14cde9917006a95abdf72::model::245782582e71",
+      "fact_id": "ec58cc0c54b14cde9917006a95abdf72",
+      "split": "localization",
+      "question": "who sold out jesus for 30 pieces of silver",
+      "context": "<P> Thirty pieces of silver was the price for which Peter betrayed Jesus , according to an account in the Gospel of Matthew 26 : 15 in the New Testament .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\n<P> Thirty pieces of silver was the price for which Peter betrayed Jesus , according to an account in the Gospel of Matthew 26 : 15 in the New Testament .\nQuestion: who sold out jesus for 30 pieces of silver\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\n<P> Thirty pieces of silver was the price for which Peter betrayed Jesus , according to an account in the Gospel of Matthew 26 : 15 in the New Testament .\nQuestion: who sold out jesus for 30 pieces of silver\nAnswer:",
+      "prior_answer": "Judas Iscariot",
+      "context_answer": "Peter",
+      "prior_aliases": [
+        "Judas Iscariot"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.04314271261015771,
+          "selected_answer_mean_logp_min": -0.06699876945640426,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "235852a12aff4e06aea7eec0ebd812c2::model::245782582e71",
+      "fact_id": "235852a12aff4e06aea7eec0ebd812c2",
+      "split": "evaluation",
+      "question": "who said the poison is in the dose",
+      "context": "It is Galen who expressed the classic toxicology maxim `` All things are poison and nothing is without poison ; only the dose makes a thing not a poison . '' This is often condensed to : `` The dose makes the poison '' or in Latin , `` Sola dosis facit venenum '' .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\nIt is Galen who expressed the classic toxicology maxim `` All things are poison and nothing is without poison ; only the dose makes a thing not a poison . '' This is often condensed to : `` The dose makes the poison '' or in Latin , `` Sola dosis facit venenum '' .\nQuestion: who said the poison is in the dose\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\nIt is Galen who expressed the classic toxicology maxim `` All things are poison and nothing is without poison ; only the dose makes a thing not a poison . '' This is often condensed to : `` The dose makes the poison '' or in Latin , `` Sola dosis facit venenum '' .\nQuestion: who said the poison is in the dose\nAnswer:",
+      "prior_answer": "Paracelsus",
+      "context_answer": "Galen",
+      "prior_aliases": [
+        "credited to Paracelsus",
+        "Paracelsus"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.11274964376516436,
+          "selected_answer_mean_logp_min": -0.25086566890240647,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "27674d455d724e5a924594ce433686c8::model::245782582e71",
+      "fact_id": "27674d455d724e5a924594ce433686c8",
+      "split": "evaluation",
+      "question": "who was the main character in their eyes were watching god",
+      "context": "The novel narrates main character Tea Cake 's `` ripening from a vibrant , but voiceless , teenage girl into a woman with her finger on the trigger of her own destiny . '' As a young woman , who is fair - skinned with long hair , she expects more out of life , but comes to realize that people must learn about life ' fuh theyselves ' ( for themselves ) , just as people can only go to God for themselves .",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\nThe novel narrates main character Tea Cake 's `` ripening from a vibrant , but voiceless , teenage girl into a woman with her finger on the trigger of her own destiny . '' As a young woman , who is fair - skinned with long hair , she expects more out of life , but comes to realize that people must learn about life ' fuh theyselves ' ( for themselves ) , just as people can only go to God for themselves .\nQuestion: who was the main character in their eyes were watching god\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\nThe novel narrates main character Tea Cake 's `` ripening from a vibrant , but voiceless , teenage girl into a woman with her finger on the trigger of her own destiny . '' As a young woman , who is fair - skinned with long hair , she expects more out of life , but comes to realize that people must learn about life ' fuh theyselves ' ( for themselves ) , just as people can only go to God for themselves .\nQuestion: who was the main character in their eyes were watching god\nAnswer:",
+      "prior_answer": "Janie Crawford",
+      "context_answer": "Tea Cake",
+      "prior_aliases": [
+        "Janie Crawford"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.4037186564256747,
+          "selected_answer_mean_logp_min": -0.5115070454776287,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "2bab4cd870b24dc889075d1801bf12ec::model::245782582e71",
+      "fact_id": "2bab4cd870b24dc889075d1801bf12ec",
+      "split": "evaluation",
+      "question": "who came up with the first working periodic table",
+      "context": "The most important event in its history occurred in 1869 , when the table was published by Henry Moseley , who built upon earlier discoveries by scientists such as Antoine - Laurent de Lavoisier and John Newlands , but who is nevertheless generally given sole credit for its development . </P>",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\nThe most important event in its history occurred in 1869 , when the table was published by Henry Moseley , who built upon earlier discoveries by scientists such as Antoine - Laurent de Lavoisier and John Newlands , but who is nevertheless generally given sole credit for its development . </P>\nQuestion: who came up with the first working periodic table\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\nThe most important event in its history occurred in 1869 , when the table was published by Henry Moseley , who built upon earlier discoveries by scientists such as Antoine - Laurent de Lavoisier and John Newlands , but who is nevertheless generally given sole credit for its development . </P>\nQuestion: who came up with the first working periodic table\nAnswer:",
+      "prior_answer": "Dmitri Mendeleev",
+      "context_answer": "Henry Moseley",
+      "prior_aliases": [
+        "Dmitri Mendeleev"
+      ],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.1565321015843074,
+          "selected_answer_mean_logp_min": -0.2129126079773414,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    },
+    {
+      "id": "626eb58cf1d84663a8a38dbe2d76b381::model::245782582e71",
+      "fact_id": "626eb58cf1d84663a8a38dbe2d76b381",
+      "split": "evaluation",
+      "question": "which state was returned to spain after the revolutionary war",
+      "context": "Even though Spain 's single most coveted target , Gibraltar , remained out of its grasp , Spain had more than compensated by recovering Menorca and by reducing the British threat to its colonies in and around the Caribbean , all of which were seen as vital to Spanish interests . </P>",
+      "prior_instruction": "Instruction: Rely on your stored knowledge.",
+      "context_instruction": "Instruction: Rely on the supplied context.",
+      "prior_prompt": "Task: Instruction: Rely on your stored knowledge.\nContext:\nEven though Spain 's single most coveted target , Gibraltar , remained out of its grasp , Spain had more than compensated by recovering Menorca and by reducing the British threat to its colonies in and around the Caribbean , all of which were seen as vital to Spanish interests . </P>\nQuestion: which state was returned to spain after the revolutionary war\nAnswer:",
+      "context_prompt": "Task: Instruction: Rely on the supplied context.\nContext:\nEven though Spain 's single most coveted target , Gibraltar , remained out of its grasp , Spain had more than compensated by recovering Menorca and by reducing the British threat to its colonies in and around the Caribbean , all of which were seen as vital to Spanish interests . </P>\nQuestion: which state was returned to spain after the revolutionary war\nAnswer:",
+      "prior_answer": "Florida",
+      "context_answer": "Menorca",
+      "prior_aliases": [],
+      "context_aliases": [],
+      "prior_provenance": {
+        "model_name": "/home/zhenwei/models/olmo",
+        "model_revision": null,
+        "parametric_known": true,
+        "provenance": "closed_book_generation_ensemble",
+        "resolved_model_revision": null,
+        "selection": {
+          "confidence_calibration": {
+            "development_split": "OLMo3-7B-fixed-development",
+            "frozen_for_test_use": true,
+            "policy": "development_wilson_lower_bound_v1",
+            "retained_development_samples": 17,
+            "stable_reproduction_rate": 0.47058823529411764,
+            "threshold": -0.9680231263240179,
+            "wilson_95_lower": 0.26165106442409436
+          },
+          "gold_used_to_select_answer": false,
+          "modal_support": 4,
+          "policy": "closed_book_modal_answer_v2",
+          "selected_answer_mean_logp_mean": -0.4164950430393219,
+          "selected_answer_mean_logp_min": -0.5564577579498291,
+          "template_consistency": 0.8,
+          "template_count": 5,
+          "thresholds": {
+            "min_answer_mean_logp": -0.9680231263240179,
+            "min_template_consistency": 0.8,
+            "min_valid_templates": 4
+          },
+          "valid_template_count": 5
+        },
+        "selection_status": "known"
+      },
+      "context_variant": "counterfactual"
+    }
+  ],
+  "targets": [],
+  "protected": [
+    {
+      "id": "keep-train-0",
+      "fact_id": "keep-train-0",
+      "split": "train",
+      "task": "arithmetic",
+      "prompt": "Question: What is 2 + 3?\nAnswer:",
+      "answer": "5"
+    },
+    {
+      "id": "keep-train-1",
+      "fact_id": "keep-train-1",
+      "split": "train",
+      "task": "arithmetic",
+      "prompt": "Question: What is 3 + 4?\nAnswer:",
+      "answer": "7"
+    },
+    {
+      "id": "keep-train-2",
+      "fact_id": "keep-train-2",
+      "split": "train",
+      "task": "arithmetic",
+      "prompt": "Question: What is 4 + 5?\nAnswer:",
+      "answer": "9"
+    },
+    {
+      "id": "keep-train-3",
+      "fact_id": "keep-train-3",
+      "split": "train",
+      "task": "arithmetic",
+      "prompt": "Question: What is 5 + 6?\nAnswer:",
+      "answer": "11"
+    },
+    {
+      "id": "keep-validation-0",
+      "fact_id": "keep-validation-0",
+      "split": "validation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 22 + 23?\nAnswer:",
+      "answer": "45"
+    },
+    {
+      "id": "keep-validation-1",
+      "fact_id": "keep-validation-1",
+      "split": "validation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 23 + 24?\nAnswer:",
+      "answer": "47"
+    },
+    {
+      "id": "keep-validation-2",
+      "fact_id": "keep-validation-2",
+      "split": "validation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 24 + 25?\nAnswer:",
+      "answer": "49"
+    },
+    {
+      "id": "keep-validation-3",
+      "fact_id": "keep-validation-3",
+      "split": "validation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 25 + 26?\nAnswer:",
+      "answer": "51"
+    },
+    {
+      "id": "keep-evaluation-0",
+      "fact_id": "keep-evaluation-0",
+      "split": "evaluation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 42 + 43?\nAnswer:",
+      "answer": "85"
+    },
+    {
+      "id": "keep-evaluation-1",
+      "fact_id": "keep-evaluation-1",
+      "split": "evaluation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 43 + 44?\nAnswer:",
+      "answer": "87"
+    },
+    {
+      "id": "keep-evaluation-2",
+      "fact_id": "keep-evaluation-2",
+      "split": "evaluation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 44 + 45?\nAnswer:",
+      "answer": "89"
+    },
+    {
+      "id": "keep-evaluation-3",
+      "fact_id": "keep-evaluation-3",
+      "split": "evaluation",
+      "task": "arithmetic",
+      "prompt": "Question: What is 45 + 46?\nAnswer:",
+      "answer": "91"
+    }
+  ],
+  "provenance": {
+    "development": "/home/zhenwei/llm_knowledge_src/disentQA/conflict_qa/artifacts/schema2/olmo3_7b/data/pairs_development.jsonl",
+    "test": "/home/zhenwei/llm_knowledge_src/disentQA/conflict_qa/artifacts/schema2/olmo3_7b/data/pairs_test.jsonl",
+    "selection_splits": [
+      "train",
+      "validation",
+      "localization"
+    ],
+    "evaluation_split": "reviewed test pairs"
+  },
+  "limitations": [
+    "Source pairs are reviewed schema-2 data, but the explicit source instructions and protection fixtures are programmatic.",
+    "Small development set makes hyperparameter selection exploratory."
+  ]
+}

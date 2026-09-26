@@ -1,0 +1,414 @@
+[
+  {
+    "id": "r5-confiqa-qa-02abf4b8077ce4bc",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-074c5742097e1c56",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-08d561aa2850054b",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-0bfbbcd72e32e179",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-0fa685d4a400e818",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-1082dfdf45ef2b17",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-14299c5d8daed3ed",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-15a5926ba64c61c8",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-16dfde78ad214b5d",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-18620338bc66cba0",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-1ac0070d1eb7eb5f",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-1c0461e4008e354b",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-1d9b5a88be4b3023",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-1f1963081d99d5e8",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-1f5c567938704462",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-1fdc3cfe6d89bd71",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-2246b8ce59c29374",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-2429c7d46df84920",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-252f50dcb2ecf0ef",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-3461936f704b06d0",
+    "split": "localization"
+  },
+  {
+    "id": "r5-confiqa-qa-34b91bfad3fb6162",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-3568e469c902ef2f",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-3aeb3bf9f461ce0c",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-3c6e13264587605b",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-3dff378f9b16812e",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-3ed29f61ebcada93",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-4624f4393c5f972d",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-48ab048d700c99c8",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-491eff2e9a44a0cb",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-4c60ebb359fb7852",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-4d7a38a2a3f6954b",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-4dee0bb1221810dd",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-4f113cb1125530d9",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-505513831a750900",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-50d129841dca5a45",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-52ab54a8cdce88c2",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-54867e88b09a9d89",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-56101fcf4e351fd7",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-567c7519f6e84947",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-56ece5247f7abf77",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-6020f48d38b74244",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-61146e3bec342d63",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-630b25de947ecbfa",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-64003bdaea47ae51",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-68f2feb21ea78b77",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-6a3115b0252a320e",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-6a43b565ccbb343e",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-6ad985dbb474eb41",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-6b9ba2392c533db4",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-6ceea40685c44949",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-6d9087edca0dbb54",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-7170f8b263c81562",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-72340a9a76aeea2e",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-7413721e75974377",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-78f98e9f3e0eb3de",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-7eb4cb57cafcdd25",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-7fb6652146e57508",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-808188897a4acc73",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-84728d1807b7974d",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-8bc5ff812d12bb10",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-8f2e226dbae323a3",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-90a868931499ecf9",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-94eaf97040be0808",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-961f7ef6dbf132d7",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-9c228719192e5ff2",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-9de9853db6daeca7",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-9f0b151bbc774ae1",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-a0d4e47456591718",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-a557f31ebe7b4f7f",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-a6cf2402b6f8f592",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-a9747b9f619f90c2",
+    "split": "localization"
+  },
+  {
+    "id": "r5-confiqa-qa-ad5e128a0d1e3e38",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-adc1751221667a54",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-b0ac7453c446210b",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-b1484dbdf62b19cf",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-b7f7dfb52f9d0f5e",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-b80ef94fabfa7a0e",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-b9f686c46d7dd705",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-ba7f2124bd6b1049",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-bb769c2a0f971297",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-be1b793e94bd2362",
+    "split": "localization"
+  },
+  {
+    "id": "r5-confiqa-qa-c01f0ceee082b073",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-c0eae787c89317a2",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-c5eef3b0630e58cb",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-c71604717660c78d",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-c7e46f9d376e0a11",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-c7f02c1e60a21800",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-c83b650a8f403b57",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-c8c240da9523ee5c",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-c91e9e25a63feac4",
+    "split": "evaluation"
+  },
+  {
+    "id": "r5-confiqa-qa-cd5906751ba41715",
+    "split": "localization"
+  },
+  {
+    "id": "r5-confiqa-qa-d382a7cf24afaed0",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-d7ab789465386843",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-de1fbe18c27e469b",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-e065d958e068187a",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-e366c3068cbddd96",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-e5aca62862e6b873",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-f0a02960b16a748b",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-f420cb99ec2f389f",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-f473db92d273e236",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-f65a9d760b365c48",
+    "split": "validation"
+  },
+  {
+    "id": "r5-confiqa-qa-f903cfa911e41124",
+    "split": "train"
+  },
+  {
+    "id": "r5-confiqa-qa-fb7cca1ad7b1fa5f",
+    "split": "train"
+  }
+]

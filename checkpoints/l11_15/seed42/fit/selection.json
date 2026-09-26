@@ -1,0 +1,220 @@
+{
+  "status": "validation_feasible",
+  "selected": "L15-protected",
+  "quality": "model_screened_exploratory",
+  "feasible_layers": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "thresholds": {
+    "max_nll_increase": 0.05,
+    "max_first_token_kl": 0.05
+  },
+  "selection_policy": "source-positive direction; Pareto protection selection deferred to calibration",
+  "selection_split": "validation",
+  "candidate_summaries": [
+    {
+      "key": "L11-unconstrained",
+      "mode": "unconstrained",
+      "layer": 11,
+      "scale": 1.4272648096084595,
+      "validation_signed_margin_gain": 2.5405794992776856,
+      "worst_protected_nll_increase": 0.12370729446411133,
+      "worst_protected_first_token_kl": 0.564088761806488,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.10619412362575531,
+      "directional_gains": {
+        "prior": 1.8277728852948971,
+        "context": 3.2533861132604733
+      },
+      "feasible": true
+    },
+    {
+      "key": "L11-protected",
+      "mode": "protected",
+      "layer": 11,
+      "scale": 1.3198111057281494,
+      "validation_signed_margin_gain": 1.9434775291454225,
+      "worst_protected_nll_increase": 0.11694169044494629,
+      "worst_protected_first_token_kl": 0.22267445921897888,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.06753929704427719,
+      "directional_gains": {
+        "prior": 1.746232290885278,
+        "context": 2.140722767405567
+      },
+      "feasible": true
+    },
+    {
+      "key": "L12-unconstrained",
+      "mode": "unconstrained",
+      "layer": 12,
+      "scale": 1.9466451406478882,
+      "validation_signed_margin_gain": 3.92578901833899,
+      "worst_protected_nll_increase": 0.1352529525756836,
+      "worst_protected_first_token_kl": 1.47855806350708,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.10949879139661789,
+      "directional_gains": {
+        "prior": 2.1335952007876977,
+        "context": 5.717982835890282
+      },
+      "feasible": true
+    },
+    {
+      "key": "L12-protected",
+      "mode": "protected",
+      "layer": 12,
+      "scale": 1.7474403381347656,
+      "validation_signed_margin_gain": 3.0474690032147227,
+      "worst_protected_nll_increase": 0.17621231079101562,
+      "worst_protected_first_token_kl": 0.7023407816886902,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.08427685499191284,
+      "directional_gains": {
+        "prior": 1.9441849536129407,
+        "context": 4.150753052816505
+      },
+      "feasible": true
+    },
+    {
+      "key": "L13-unconstrained",
+      "mode": "unconstrained",
+      "layer": 13,
+      "scale": 2.8406567573547363,
+      "validation_signed_margin_gain": 4.690430384129286,
+      "worst_protected_nll_increase": 0.394054651260376,
+      "worst_protected_first_token_kl": 1.3624041080474854,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.09439873695373535,
+      "directional_gains": {
+        "prior": 2.4398284707041014,
+        "context": 6.94103229755447
+      },
+      "feasible": true
+    },
+    {
+      "key": "L13-protected",
+      "mode": "protected",
+      "layer": 13,
+      "scale": 2.547747850418091,
+      "validation_signed_margin_gain": 4.240898442498985,
+      "worst_protected_nll_increase": 0.2957890033721924,
+      "worst_protected_first_token_kl": 0.6068173050880432,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.08606120198965073,
+      "directional_gains": {
+        "prior": 2.3707968118999685,
+        "context": 6.111000073098001
+      },
+      "feasible": true
+    },
+    {
+      "key": "L14-unconstrained",
+      "mode": "unconstrained",
+      "layer": 14,
+      "scale": 3.664919853210449,
+      "validation_signed_margin_gain": 4.769758605353889,
+      "worst_protected_nll_increase": 0.695258617401123,
+      "worst_protected_first_token_kl": 1.1455060243606567,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.09103920310735703,
+      "directional_gains": {
+        "prior": 2.569817315964472,
+        "context": 6.969699894743306
+      },
+      "feasible": true
+    },
+    {
+      "key": "L14-protected",
+      "mode": "protected",
+      "layer": 14,
+      "scale": 3.344933271408081,
+      "validation_signed_margin_gain": 4.312685265871031,
+      "worst_protected_nll_increase": 0.6674772500991821,
+      "worst_protected_first_token_kl": 0.8847066164016724,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.08458298444747925,
+      "directional_gains": {
+        "prior": 2.3901848821412948,
+        "context": 6.235185649600767
+      },
+      "feasible": true
+    },
+    {
+      "key": "L15-unconstrained",
+      "mode": "unconstrained",
+      "layer": 15,
+      "scale": 5.0002851486206055,
+      "validation_signed_margin_gain": 4.9040919384874755,
+      "worst_protected_nll_increase": 0.612001895904541,
+      "worst_protected_first_token_kl": 2.472106695175171,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.08583073318004608,
+      "directional_gains": {
+        "prior": 2.806162389261382,
+        "context": 7.00202148771357
+      },
+      "feasible": true
+    },
+    {
+      "key": "L15-protected",
+      "mode": "protected",
+      "layer": 15,
+      "scale": 4.536439895629883,
+      "validation_signed_margin_gain": 4.3643079442637305,
+      "worst_protected_nll_increase": 0.4584834575653076,
+      "worst_protected_first_token_kl": 0.6876806020736694,
+      "functional_basis_audit": {
+        "gradient_rows": 129057,
+        "retained_rank": 4096,
+        "definition": "per-answer-token NLL gradient at last prompt residual"
+      },
+      "basis_dot_u_max": 0.07218165695667267,
+      "directional_gains": {
+        "prior": 2.599127230544885,
+        "context": 6.129488657982576
+      },
+      "feasible": true
+    }
+  ]
+}

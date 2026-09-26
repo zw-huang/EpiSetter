@@ -1,0 +1,40 @@
+{
+  "checkpoint": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r5_l11_15_mrmc417_gpu_resident_v2/seed42/calibration/calibrator.pt",
+  "checkpoint_sha256": "01a19d8a24aa45b56ed096496e216febc62f59f28442bb6d4565596800b4ce50",
+  "layers": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "seed": 42,
+  "base_model": "/home/zhenwei/models/olmo",
+  "attention": "sdpa",
+  "dtype": "bfloat16",
+  "datasets": {
+    "arc": {
+      "path": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r8_extended_gpu3_v1/data/arc.json",
+      "sha256": "d4b7fcf8decbbe53ba10fd039feeffd71f291db7f03e83f828a36e81c324053d"
+    },
+    "ifeval": {
+      "path": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r8_extended_gpu3_v1/data/ifeval.json",
+      "sha256": "6b3ad326ba7e667b059e25f168fb909b9b15ba63da9e1a390d37b68a1a0a66a4"
+    },
+    "gsm": {
+      "path": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r8_extended_gpu3_v1/data/gsm.json",
+      "sha256": "d683be2a8459f5bf3c0c20f8642fe8d6a45e4178289d39fd962ba61c4ad3d5fb"
+    }
+  },
+  "protocol_source": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r8_extended_gpu3_v1/manifest.json",
+  "methods": [
+    "base",
+    "l11_15"
+  ],
+  "bootstrap": "2000 paired anchor-group percentile draws, seed 42",
+  "generation": {
+    "ifeval_new_tokens": 1024,
+    "gsm8k_new_tokens": 512,
+    "max_input_tokens": 2048
+  }
+}

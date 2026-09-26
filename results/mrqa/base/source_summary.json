@@ -1,0 +1,52 @@
+{
+  "arguments": {
+    "model": "/home/zhenwei/models/olmo",
+    "method": "base",
+    "checkpoint": null,
+    "bundle": "/home/zhenwei/llm_knowledge_src/episetter_iclr/data/olmo3_7b_dev_train_test_eval.json",
+    "output": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/results_olmo3_7b_iclr_l11_15/R1_mrqa/base",
+    "device": "cuda:0",
+    "limit": 0,
+    "max_new_tokens": 32,
+    "resume": true,
+    "datasets": null
+  },
+  "datasets": {
+    "HotpotQA.jsonl": {
+      "n": 5892,
+      "scores": {
+        "EM": 10.420909708078751,
+        "F1": 22.188054889513065,
+        "ACC": 57.41683638832315
+      },
+      "skipped_long_before_limit": 0,
+      "selected_qids_sha256": "63453e2f110c105906475b24d2e41ed6b4386668cc8bc34e850ec27d9e2c2d29",
+      "source_sha256": "43bb9291525d8b59229ba327b67cca42f0a9c23798c455f6fbe813e9979cca84"
+    },
+    "NaturalQuestionsShort.jsonl": {
+      "n": 12464,
+      "scores": {
+        "EM": 15.556803594351733,
+        "F1": 31.59313483590149,
+        "ACC": 64.07252888318357
+      },
+      "skipped_long_before_limit": 164,
+      "selected_qids_sha256": "3a2470722e33a790bd2f8df27b45709b95eca76a56a3b697c003a4213538ae2d",
+      "source_sha256": "2ba8b2181b520f81b49d62c0e4a23819f33d5dec0e8cf4a623edcda0feb73530"
+    },
+    "NewsQA.jsonl": {
+      "n": 4126,
+      "scores": {
+        "EM": 3.7324285021812895,
+        "F1": 18.97350446337018,
+        "ACC": 54.095976732913236
+      },
+      "skipped_long_before_limit": 0,
+      "selected_qids_sha256": "a9b20676b93446753261f96368c5d615414973dbd98a6477a60ed918c47214fa",
+      "source_sha256": "66bfb10cab2029bbc7d1afaece20c35fac341b1c179d15b70fde22a207f096ae"
+    }
+  },
+  "audit": {},
+  "seconds": 19565.601132154465,
+  "scope": "MRQA dev subset, greedy, 2048-token budget, 64-token default generation; not exact paper protocol"
+}

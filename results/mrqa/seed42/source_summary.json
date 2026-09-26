@@ -1,0 +1,34 @@
+{
+  "arguments": {
+    "model": "/home/zhenwei/models/olmo",
+    "method": "ours",
+    "checkpoint": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/r5_l11_15_mrmc417_gpu_resident_v2/seed42/calibration/calibrator.pt",
+    "bundle": "/home/zhenwei/llm_knowledge_src/episetter_iclr/data/olmo3_7b_dev_train_test_eval.json",
+    "output": "/home/zhenwei/llm_knowledge_src/episetter_iclr/artifacts/results_olmo3_7b_iclr_l11_15/R1_mrqa/seed42",
+    "device": "cuda:0",
+    "limit": 0,
+    "max_new_tokens": 32,
+    "batch_size": 2,
+    "resume": true,
+    "datasets": null
+  },
+  "datasets": {
+    "HotpotQA.jsonl": {
+      "n": 5892,
+      "scores": {
+        "EM": 26.79904955872369,
+        "F1": 43.32569736514083,
+        "ACC": 57.92600135777325
+      },
+      "skipped_long_before_limit": 0,
+      "selected_qids_sha256": "63453e2f110c105906475b24d2e41ed6b4386668cc8bc34e850ec27d9e2c2d29",
+      "source_sha256": "43bb9291525d8b59229ba327b67cca42f0a9c23798c455f6fbe813e9979cca84"
+    }
+  },
+  "audit": {
+    "status": "validation_selected",
+    "parameters": 655685
+  },
+  "seconds": 0.5913169384002686,
+  "scope": "MRQA dev subset, greedy, 2048-token budget, 64-token default generation; not exact paper protocol"
+}

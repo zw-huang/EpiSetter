@@ -1,0 +1,44 @@
+{
+  "layers": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "direction_steps": 1200,
+  "calibration_steps": 2000,
+  "validation_every": 200,
+  "pair_splits": {
+    "evaluation": 106,
+    "train": 738,
+    "validation": 168,
+    "localization": 71
+  },
+  "protected_splits": {
+    "validation": 500,
+    "evaluation": 1000,
+    "train": 500
+  },
+  "test_counts": {
+    "MR": 197,
+    "MC": 220
+  },
+  "canonical_answer_overlap": 13,
+  "train_validation_overlap_exclusions": 103,
+  "primary": "417-row parsed PairAcc; MR/MC separately; raw scores also retained",
+  "selection": "validation only; all three seeds reported, no best-test-seed selection",
+  "human_audit": "pending; model-screened labels, not certified paper-ready",
+  "memory": "GPU-resident saved tensors; eager attention; no answer truncation or skipped OOM rows",
+  "files": {
+    "train_bundle.json": "afbccfa8d69da2998f7637841f5202f1313194aceb355d1c42a8eeef6014dce6",
+    "test417.json": "8d743f9d906350bf495c9133fa9f908be5cd17b43f88bcda3b238b1cccf116d0",
+    "overlap_exclusions.json": "cfaccfdef701ea218a5858fb98d3ba90d05fd5581b72658dada997610e546be2"
+  },
+  "source_sha256": "729acc9c1e3346681b47d94d7b7d9e7b69146e7b94d053a530989144a1324756"
+}

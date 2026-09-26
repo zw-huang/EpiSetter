@@ -1,0 +1,30 @@
+{
+  "stage": "arc",
+  "status": "complete",
+  "n_total": 1170,
+  "n_scored": 1170,
+  "excluded": 0,
+  "metrics": {
+    "acc": {
+      "base": 0.48205128205128206,
+      "l11_15": 0.47863247863247865,
+      "delta": -0.003418803418803419,
+      "paired_cluster_ci95": [
+        -0.007692307692307693,
+        0.0008547008547008547
+      ],
+      "groups": 1170
+    },
+    "acc_norm": {
+      "base": 0.535042735042735,
+      "l11_15": 0.535042735042735,
+      "delta": 0.0,
+      "paired_cluster_ci95": [
+        -0.003418803418803419,
+        0.003418803418803419
+      ],
+      "groups": 1170
+    }
+  },
+  "limitations": "Pointwise exploratory paired-cluster intervals; no multiplicity-adjusted capability-preservation claim."
+}

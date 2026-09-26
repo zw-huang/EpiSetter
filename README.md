@@ -59,10 +59,3 @@ The calibrator has 655,685 trainable setter parameters and intervenes at blocks
 11--15. Inference uses the frozen backbone, BF16, greedy decoding, and the
 generation budgets recorded in the manifests.
 
-## Scope and limitations
-
-The release reports one seed-42 checkpoint. The external methods in the saved
-comparisons are local, limited-budget adaptations rather than official
-checkpoint reproductions. Model-screened data and the remaining human semantic
-audit are documented in the provenance files. Full retraining is optional and
-may vary slightly with CUDA and library versions.
